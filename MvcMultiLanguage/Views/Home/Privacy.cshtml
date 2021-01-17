@@ -1,0 +1,7 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer<MvcMultiLanguage.Controllers.HomeController> localizer
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@localizer["privacyPolicy"]</h1>
+
+<p>@localizer["detail"]</p>
